@@ -3,6 +3,7 @@
 
 <head>
     <title>TwitchTV JSON API</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -10,30 +11,31 @@
 <body>
     <div class="container">
         <div id="header" class="text-center">
-            <h1>Use the TwitchTV JSON API</h1>
-            <h2>Free Code Camp</h2>
-            <h3 id="fccStatus"></h3>
-        </div>
-        <div class="row">
-            <h1>
-			<div class="col-md-4">
-			Logo:	
-			</div>
-			<div class="col-md-4">
-			Display Name:	
-			</div>
-			<div class="col-md-4">
-			Status:	
-			</div>
-			</h1>
-        </div>
-		<div id="followerInfo">
-			
-		</div>
-
+            <h1 style="font-family: 'Open Sans', sans-serif;">Twitch.TV Streamers</h1>
+            <h2 style="font-family: 'Open Sans', sans-serif;">Free Code Camp Project</h2>
+            <a href="https://twitch.tv/freecodecamp"><h3 style="font-family: 'Open Sans', sans-serif;" id="fccStatus" target="_blank"></h3><a/>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="javascript/logic.js"></script>
+  <h1 style="font-family: 'Open Sans', sans-serif;">
+  <div class="row">
+    <div class="col-md-4">
+      Logo:
+    </div>
+    <div class="col-md-4" style="font-family: 'Open Sans', sans-serif;">
+      Display name:
+    </div>
+    <div class="col-md-4" style="font-family: 'Open Sans', sans-serif;">
+      Status:
+    </div>
+   </div>
+  </h1>
+  <div id="follower-info" style="font-family: 'Open Sans', sans-serif;">
+  </div>
+  </div>
+    <footer style="text-align:center; font-family: 'Open Sans', sans-serif;">
+      Made with <i class="fa fa-code" aria-hidden="true"></i> by <a href="https://github.com/andyreesecups" target="_blank">Andrew Reese</a>
+            </footer>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <script src="javascript/logic.js"></script>
 </body>
 
 </html>
